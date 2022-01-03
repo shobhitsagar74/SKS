@@ -1,0 +1,335 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+:root{
+    --bodycolor:#2a2b2e;
+    --fontc:#fff;
+
+    --dark-gray: #2a2b2e;
+    --dark-pink: #ff7c7c;
+    --light-pink: #ffb6b9;
+    --blue: #8deaff;
+    --yellow: #ffe084;
+    --light-gray: #d9d9d9;
+    --white-almost: #f5f5f5;
+    --hfont: 'Ubuntu Mono', monospace;
+    --pfont:'Varela Round', sans-serif;
+}
+
+/* 
+font-family: 'Ubuntu Mono', monospace;
+font-family: 'Varela Round', sans-serif; */
+
+
+
+body{
+    background-color:var(--bodycolor);
+    color: var(--fontc);
+}
+
+
+
+/* navbar css start */
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    
+}
+.nav-left{
+    width: 30%;
+    /* background-color: aqua; */
+
+}
+.nav-left h1{
+    font-size: 22px;
+    padding: 20px;
+}
+.nav-right{
+    width: 70%;
+    /* background-color: blue; */
+    text-align: right;
+}
+.nav-left a{
+    color: var(--fontc);
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+}
+.nav-right a{
+    padding: 10px;
+    text-decoration: none;
+    text-align: right;
+}
+.a1{
+    color:var(--dark-pink);
+}
+.a2{
+    color:var(--blue);
+}
+.a3{
+    color:var(--yellow);
+}
+.a4{
+    color:var(--light-pink);
+}
+
+
+.nav-right a:hover{
+    color: gray;
+}
+
+/* end nav css */
+
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: cyan; */
+}
+
+
+/* start section about css */
+
+
+
+.photo{
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    border-radius: 50%;
+    box-shadow: 2rem 2rem 2rem #000;
+    overflow: hidden;
+}
+.photo img{
+    height: 200px;
+    width: 200px;
+}
+center h1{
+    color: var(--dark-pink);
+}
+.text{
+    font-size: 15px;
+    width: 100%;
+    height: fit-content;
+    /* background-color: cyan; */
+    padding-left: 20%;
+    padding-right: 20%;
+  
+}
+.vscode{
+    color: var(--light-pink);
+}
+.clean{
+    color: var(--yellow);
+}
+.complain{
+    color: var(--blue);
+}
+.dark-red{
+    color: var(--dark-pink);
+}
+/* end section about css */
+
+
+
+/* start footer css */
+
+
+
+footer{
+    width: 100%;
+    height: 60px;
+    /* background-color: darkcyan; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-copyright{
+    width: 50%;
+    font-size: 15px;
+    color: var(--white-almost);
+    padding-left: 10px;
+}
+.footer-links{
+    color: var(--fontc);
+    font-size: 20px;
+    width: 50%;
+    padding-right: 20px;
+    text-align: right;
+}
+.footer-links a{
+    text-decoration: none;
+    color: var(--fontc);
+    padding: 10px;
+
+}
+.footer-links a:hover{
+    color: var(--dark-pink);
+}
+
+
+
+
+
+
+
+
+/* end footer css */
+
+
+
+
+
+
+/* project css start */
+p{
+    font-family: var(--pfont);
+}
+.wrapper-p{
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+.card-1{
+    min-width: 300px;
+    max-width: 320px;
+    height: 500px;
+    background-color: var(--bodycolor);
+    box-shadow:  10px 10px 30px #000;
+    border-radius: 12;
+    margin-top: 50px;
+}
+.card-left{
+    width: 95%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* background-color: aqua; */
+}
+.card-left h3{
+    font-family: var(--hfont);
+    text-shadow: 0.5rem 0.5rem 0.5rem #000;
+}
+.ProjectsCard-center{
+    width: 85%;
+    height: 2px;
+    background-color: var(--dark-pink);
+}
+.card-right{
+    width: 95%;
+    height: 250px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(2, 56, 56); */
+}
+button{
+    padding: 0px 10px 0px 10px;
+    border-color: var(--dark-pink);
+    margin-left: 15px;
+    margin-right: 15px;
+    color: var(--white-almost);
+}
+.font-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* project css end */
+
+
+
+
+
+/* start about css */
+
+
+.wrapper-about{
+    width: 80%;
+    height: 100vh;
+    margin: 10px 10% 50px 10% ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-about h1{
+    font-family: "Ubuntu Mono";
+    margin-bottom: 4rem;
+    text-shadow: 0.5rem 0.5rem 0.5rem #000;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+/* end about css */
+
+
+
+
+
+
+
+/*------------mobile---------------*/
+@media only screen and (max-width: 611px) {
+
+    .nav-left{
+       display: none;
+    }
+    .nav-right{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-copyright{
+        display: none;
+    }
+    .footer-links{
+        width: 100%;
+        /* display: flex; */
+        float: right;
+    }
+
+    .wrapper-about {
+        width: 94%;
+        margin: 10px 3% 50px 3%;
+    }
+    .text {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+
+
+
+
+
+  }
